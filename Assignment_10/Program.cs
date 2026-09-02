@@ -79,6 +79,18 @@ namespace Assignment_10;
 
         #endregion
 
+        #region Part03
+
+        //// Scenario 5: Low-Stock Alert 
+        //Console.WriteLine("--- Low-Stock Alert ---");
+        //List<Product> lowStock = FilterService.FilterProducts(catalog, p => p.Stock < 20);
+        //foreach (Product p in lowStock)
+        //{
+        //    Console.WriteLine($"[LOW STOCK] {p.Name}: only {p.Stock} left!");
+        //}
+
+        #endregion
+
         #endregion
     }
 }
