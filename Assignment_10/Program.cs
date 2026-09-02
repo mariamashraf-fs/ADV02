@@ -20,7 +20,7 @@ namespace Assignment_10;
                 new Product { Id=10, Name="Jacket", Category="Clothing", Price=120, Stock=15 },
             };
 
-           #region Task01
+        #region Task01
 
         //// 1. All Electronics products
         //List<Product> electronics = SearchService.SearchProducts(catalog, p => p.Category == "Electronics");
@@ -41,6 +41,23 @@ namespace Assignment_10;
         //List<Product> cheapClothing = SearchService.SearchProducts(catalog, p => p.Category == "Clothing" && p.Price < 100);
         //Console.WriteLine("\n--- Clothing Under $100 ---");
         //foreach (Product p in cheapClothing) Console.WriteLine($"{p.Name} - ${p.Price} (Stock: {p.Stock})");
+
+        #endregion
+
+        #region Task03
+
+        #region Part01
+
+        //// Scenario 1: Short Report
+        //Console.WriteLine("--- Short Report ---");
+        //ReportService.PrintReport(catalog, p => Console.WriteLine($"{p.Name} - ${p.Price}"));
+
+        //// Scenario 2: Detailed Report
+        //Console.WriteLine("\n--- Detailed Report ---");
+        //ReportService.PrintReport(catalog, p => Console.WriteLine($"[{p.Category}] {p.Name} | Price: ${p.Price} | " +
+        //    $"Stock: {p.Stock}"));
+
+        #endregion
 
         #endregion
     }
