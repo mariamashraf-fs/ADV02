@@ -59,6 +59,26 @@ namespace Assignment_10;
 
         #endregion
 
+        #region Part02
+
+        //// Scenario 3: Summary List 
+        //Console.WriteLine("\n--- Summary List ---");
+        //List<string> summaries = TransformService.TransformProducts(catalog, p => $"{p.Name} (${p.Price})");
+        //foreach (string summary in summaries)
+        //{
+        //    Console.WriteLine(summary);
+        //}
+
+        //// Scenario 4: Price Label 
+        //Console.WriteLine("\n--- Price Labels ---");
+        //List<string> labels = TransformService.TransformProducts(catalog, p => p.Price > 100 ? "Expensive!" : "Affordable");
+        //for (int i = 0; i < catalog.Count; i++)
+        //{
+        //    Console.WriteLine($"{catalog[i].Name}: {labels[i]}");
+        //}
+
+        #endregion
+
         #endregion
     }
 }
